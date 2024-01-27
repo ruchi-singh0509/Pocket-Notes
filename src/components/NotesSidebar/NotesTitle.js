@@ -26,11 +26,13 @@ function NotesTitle({ title }) {
         selected === title[0].name ? "highlighted__title" : null
       }`}
     >
-      <div className="title__logo" style={{ backgroundColor: title[0].color }}>
-        {nameInitals}
+      <div className="title__container">
+        <div className="title__logo" style={{ backgroundColor: title[0].color }}>
+          {nameInitals}
+          </div>
+          <div className="group__title">{newTitle}</div>
+        </div>
       </div>
-      <div className="group__title">{newTitle}</div>
-    </div>
   );
 }
 
