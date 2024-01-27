@@ -72,8 +72,7 @@
 .mobile__popup__color__input__color__3,
 .mobile__popup__color__input__color__4,
 .mobile__popup__color__input__color__5,
-.mobile__popup__color__input__color__6,
-.mobile__popup__color__input__color__7 {
+.mobile__popup__color__input__color__6 {
     width: 6vw;
     height: 6vw;
     border-radius: 50%;
@@ -82,36 +81,29 @@
     background-color: black;
 }
 
-
 .mobile__popup__color__input__color__1 {
-    background-color: #0047FF;
-}
-
-.mobile__popup__color__input__color__2 {
     background-color: #B38BFA;
 }
 
-.mobile__popup__color__input__color__3 {
-    background-color: #FFC0C0;
+.mobile__popup__color__input__color__2 {
+    background-color: #FF79F2;
 }
 
-.mobile__popup__color__input__color__4 {
+.mobile__popup__color__input__color__3 {
     background-color: #43E6FC;
 }
 
-.mobile__popup__color__input__color__5 {
+.mobile__popup__color__input__color__4 {
     background-color: #F19576;
+}
+
+.mobile__popup__color__input__color__5 {
+    background-color: #0047FF;
 }
 
 .mobile__popup__color__input__color__6 {
     background-color: #6691FF;
 }
-
-.mobile__popup__color__input__color__7 {
-    background-color: #FF66F0;
-}
-
-
 
 .mobile__popup__close {
     height: 5vh;
@@ -131,6 +123,10 @@
     border-radius: 4vh;
     background-color: black;
 }
+
+
+
+
 
 
 .highlight {

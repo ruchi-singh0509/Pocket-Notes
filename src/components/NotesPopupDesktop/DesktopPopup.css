@@ -66,8 +66,7 @@
 .popup__color__input__color__3,
 .popup__color__input__color__4,
 .popup__color__input__color__5,
-.popup__color__input__color__6,
-.popup__color__input__color__7 {
+.popup__color__input__color__6 {
     width: 3vh;
     height: 3vh;
     border-radius: 50%;
@@ -77,31 +76,27 @@
 }
 
 .popup__color__input__color__1 {
-    background-color: #0047FF;
-}
-
-.popup__color__input__color__2 {
     background-color: #B38BFA;
 }
 
-.popup__color__input__color__3 {
-    background-color: #FFC0C0;
+.popup__color__input__color__2 {
+    background-color: #FF79F2;
 }
 
-.popup__color__input__color__4 {
+.popup__color__input__color__3 {
     background-color: #43E6FC;
 }
 
-.popup__color__input__color__5 {
+.popup__color__input__color__4 {
     background-color: #F19576;
+}
+
+.popup__color__input__color__5 {
+    background-color: #0047FF;
 }
 
 .popup__color__input__color__6 {
     background-color: #6691FF;
-}
-
-.popup__color__input__color__7 {
-    background-color: #FF66F0;
 }
 
 .popup__close {
@@ -127,4 +122,3 @@
     border: 2px solid black;
     border-radius: 6vh;
 }
-

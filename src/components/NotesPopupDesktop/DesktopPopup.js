@@ -75,13 +75,6 @@ function CreateNotesPopup({ groupNamesParent, setGroupNamesParent, onClose }) {
             }`}
             onClick={handleColor}
           ></div>
-          <div
-            className={`popup__color__input__color__7 ${
-              bgColor === "rgb(102, 145, 255)" ? `highlight` : null
-            }`}
-            onClick={handleColor}
-          ></div>
-          
         </div>
       </div>
       <div className="popup__close">
