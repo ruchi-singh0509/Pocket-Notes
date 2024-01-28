@@ -1,5 +1,5 @@
 import React from "react";
-import "../NotesSidebar/NotesTitle";
+import "../NotesSidebar/NotesTitle.css";
 import usePocketContext from "../../hooks/usePocketContext";
 
 function NotesTitle({ title }) {
@@ -26,13 +26,11 @@ function NotesTitle({ title }) {
         selected === title[0].name ? "highlighted__title" : null
       }`}
     >
-      <div className="title__container">
-        <div className="title__logo" style={{ backgroundColor: title[0].color }}>
-          {nameInitals}
-          </div>
-          <div className="group__title">{newTitle}</div>
-        </div>
+      <div className="title__logo" style={{ backgroundColor: title[0].color }}>
+        {nameInitals}
       </div>
+      <div className="group__title">{newTitle}</div>
+    </div>
   );
 }
 
